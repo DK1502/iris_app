@@ -44,7 +44,7 @@ pickle.dump(clf, open("rf_model.sav", 'wb'))
 
 ## ******************* THE web APP ************************
 # title and description:
-st.title('Classifying Iris Flowers')
+st.title('Classification model to predict Iris Flowers - by DK')
 st.markdown('Toy model to play with the iris flowers dataset and classify the three Species into \
      (setosa, versicolor, virginica) based on their sepal/petal \
     and length/width.')
@@ -74,5 +74,4 @@ if st.button("Predict type of Iris"):
 st.text('')
 st.text('')
 st.markdown(
-    '`Initial code was developed by` [Dr. D. Narayana](https://www.linkedin.com/in/darapaneni/) | \
-         `Code modification and update by:` [Students](https://www.linkedin.com/in/darapaneni/)')
+    '`Initial code was developed by` [Dinesh kumar]')
